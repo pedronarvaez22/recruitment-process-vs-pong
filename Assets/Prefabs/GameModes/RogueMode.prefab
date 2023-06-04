@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1166866322323061393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7163633388094453993}
+  - component: {fileID: 4181419562726259987}
+  m_Layer: 0
+  m_Name: RogueMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7163633388094453993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166866322323061393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4181419562726259987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166866322323061393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 733bd4c7b44e98c498128c92680097a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentGameState: 0
+  gameOver: 0
+  obstaclePrefabs:
+  - {fileID: 2194062477913652917, guid: 6d606fd2135d7d941a355f21fa34410b, type: 3}
+  - {fileID: 4249002070305778955, guid: a0da7ea9c31258c47ac01a65fdb97c50, type: 3}
+  - {fileID: 9079241150736488935, guid: f10f67875d7ac7f4b830c3fe9046f6a6, type: 3}
+  - {fileID: 8503960213885195174, guid: 5785c53740fb5b4468eb537eb50deab9, type: 3}
+  - {fileID: 923229394755776408, guid: 9ec5c6d19a564bd44b743403f82c73d3, type: 3}
+  - {fileID: 4420293318806871836, guid: d65083c9d24513b43b4da08423308537, type: 3}
+  - {fileID: 2751708725287164646, guid: 558b390f06086c747bc404b6462bd8a2, type: 3}
+  - {fileID: 5082445140398200434, guid: ae72f09bc7787a34c86544a03d33e771, type: 3}
+  isPaused: 0
